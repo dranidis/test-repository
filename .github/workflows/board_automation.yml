@@ -21,6 +21,7 @@ jobs:
         uses: leonsteinhaeuser/project-beta-automations@v2.1.0
         with:
           gh_token: ${{ secrets.GHPROJECT_TOKEN }}
+          move_related_issues: true
           user: dranidis
           # organization: sample-org
           project_id: 5
