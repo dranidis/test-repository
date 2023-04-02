@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
-          project: "@dranidis's team backlog project"
+          project: "team-backlog-project"
           column: "👀 In review"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
